@@ -36,7 +36,7 @@
             <option>4</option>
         </select><br>
 
-        <button>Throw me!</button>
+        <button onclick="rollDice()">Throw me!</button>
     </form>
 
     <section>
@@ -45,6 +45,13 @@
         <p>Your total score is: <em id="totalResult">empty</em>!</p>
     </section>
 
+    <script>
+        function rollDice(){
+            
+            event.preventDefault();
+            console.log("good");
+        }
+    </script>
 </body>
 
 </html>
