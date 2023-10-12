@@ -1,10 +1,31 @@
 * {
-    background-color: rgb(99, 160, 196);
+    background-color: rgb(172, 233, 248);
     font-family: helvetica;
+    text-align: center;
 }
 
 h1 {
     font-family: arial;
-    text-align: center;
     font-size: 50px;
+}
+
+.header {
+    height: 150px;
+}
+
+.form1 {
+    padding: 50px;
+}
+
+.selector{
+    color:blue;
+    margin: 15px;
+}
+
+.button {
+    border: none;
+    background-color: darkblue;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
 }
