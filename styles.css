@@ -1,24 +1,71 @@
 * {
-    background-color: rgb(172, 233, 248);
     font-family: helvetica;
     text-align: center;
 }
 
-h1 {
-    font-family: arial;
-    font-size: 50px;
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url(https://getwallpapers.com/wallpaper/full/7/e/e/767028-full-size-dice-wallpaper-1920x1080-for-full-hd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 .header {
     height: 150px;
+    color: white;
 }
 
-.form1 {
+h1 {
+    padding-top: 50px;
+    font-family: arial;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.window {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.windowContent {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form {
     padding: 50px;
 }
 
-.selector{
-    color:blue;
+#sides{
+    padding: 7px;
+    width: 60px;
+    font-size: 15px;
+}
+
+#number{
+    padding: 7px;
+    width: 60px;
+    font-size: 15px;
+}
+
+.selector {
     margin: 15px;
 }
 
@@ -28,9 +75,20 @@ h1 {
     padding: 15px;
     color: white;
     border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 190px;
+}
+
+.resultSec {
+    color:white;
+    
+}
+
+.results {
+    font-size: 25px;
 }
 
 #total {
-    color:maroon;
     font-size: 40px;
 }

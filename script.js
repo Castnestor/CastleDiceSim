@@ -13,7 +13,7 @@ function rollDice(){
         //change the result for each throw into the recpective HTML
         document.getElementById("result" + (i +1)).innerHTML = rolling;
     }
-    document.getElementById("total").innerHTML = total;
+    document.getElementById("totalResult").innerHTML = total;
 }
 
 //In this function dc stands for "number of faces"   
