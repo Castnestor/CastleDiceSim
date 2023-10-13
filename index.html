@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Castle Dice SIM</title>
     <link href="styles.css" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -18,36 +19,35 @@
     <h2>Instructions:</h2>
     <p>This is a Dice roller, choose the number of sides and the number of Dice, then, press "Throw me!!"</p>
 
-    <form class="form1">
-        <label for="sides" class="selector">Choose the number of sides:</label>
-        <select id="sides">
-            <option></option>
-            <option>4</option>
-            <option>6</option>
-            <option>8</option>
-            <option>10</option>
-        </select><br><br>
+    <!--div = form-->
+    <label for="sides" class="selector">Choose the number of sides:</label>
+    <select id="sides">
+        <option></option>
+        <option>4</option>
+        <option>6</option>
+        <option>8</option>
+        <option>10</option>
+    </select><br><br>
 
-        <label for="number" class="selector">Number of Dice:</label>
-        <select id="number">
-            <option></option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-        </select><br><br>
+    <label for="number" class="selector">Number of Dice:</label>
+    <select id="number">
+        <option></option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select><br><br>
 
-        <button class="button" onclick="rollDice()">Throw me!</button>
-    </form>
+    <button class="button" onclick="rollDice()">Throw me!</button>
+
 
     <section>
         <img src="https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/3f9a8581974f47449fc7f30a3702070b_Large.jpg" alt="different types of dice" width="350px">
-        <p id="result">Results</p>
-        <p id="total">Your total score is: <em id="totalResult">empty</em>!</p>
+        <p class="results" id="result1">Result1</p>
+        <p class="results" id="result2">Result2</p>
+        <p class="results" id="result3">Result3</p>
+        <p id="total">Your total score is: <em id="totalResult"></em></p>
+
     </section>
-
-    <script>
-
-    </script>
 </body>
 
 </html>
