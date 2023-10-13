@@ -29,3 +29,8 @@ h1 {
     color: white;
     border-radius: 15px;
 }
+
+#total {
+    color:maroon;
+    font-size: 40px;
+}
